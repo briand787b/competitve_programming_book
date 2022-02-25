@@ -44,3 +44,13 @@ The `intersection` A ∩ B consists of elements that are in both A and B
 
 The `union` A ∪ B consists of elements that are in A or B or both
 
+The `complement`  ̄A consists of elements that are not in A.  This is compared against a `universal set`.
+
+The `difference` A \ B = A ∩  ̄B consists of elements that are in A but not in B.
+
+If each element of A also belongs to S, we say that A is a `subset` of S, denoted by A ⊂ S.
+
+Some often used sets are N (natural numbers), Z (integers), Q (rational numbers) and R (real numbers).
+
+The set N can be defined in two ways, depending
+on the situation: either N = {0, 1, 2, . . .} or N = {1, 2, 3, ...}.
