@@ -54,3 +54,24 @@ Some often used sets are N (natural numbers), Z (integers), Q (rational numbers)
 
 The set N can be defined in two ways, depending
 on the situation: either N = {0, 1, 2, . . .} or N = {1, 2, 3, ...}.
+
+### Logic
+The value of a logical expression is either true (1) or false (0).  
+
+`Negation`: ¬A has the opposite value of A.
+`Conjugation`: A∧B is true if both A and B are true.
+`Disjunction`: A∨B is true if A or B or both are true.
+`Implication`: A⇒B is is true if whenever A is true, B is also true.
+`Equivalence`: A⇔B is true if A and B are both true or both false.
+
+A `predicate` is an expression that is true or false depending on its parameters. For example, we can define a predicate P(x) that is true exactly when x is a prime number. 
+
+A `quantifier` connects a logical expression to the elements of a set. The most important quantifiers are ∀ (for all) and ∃ (there is). 
+For example:
+```
+∀x(∃y(y < x))
+```
+means that for each element x in the set, there is an element y in the set such
+that y is smaller than x.
+
+### Functions
